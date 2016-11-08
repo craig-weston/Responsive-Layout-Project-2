@@ -1,0 +1,25 @@
+// Descriptive color variables
+
+$white          : #fafafa;
+$black          : #4a4a4a;
+$blue           : #6633ff;
+
+// Functional color variables
+
+$color-text-base: $black;
+
+$color-link-default: $black;
+$color-link-hover: $blue;
+
+$color-body: $white;
+
+// Fonts
+
+$default-font-size: 16px;
+$default-font-family: 'Istok Web', sans-serif;
+
+//Media query
+
+$brk-narrow :  '(min-width: 768px)' ;
+$brk-wide :  '(min-width: 1024px)';
+

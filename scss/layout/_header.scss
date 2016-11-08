@@ -1,0 +1,14 @@
+header {
+	@extend %center;
+	padding: 0 5%;
+	
+	@media #{$brk-narrow} {
+		padding: 0 3%;
+
+	}
+
+	@media #{$brk-wide} {
+			display: flex;
+			flex-wrap: wrap;
+	}
+}

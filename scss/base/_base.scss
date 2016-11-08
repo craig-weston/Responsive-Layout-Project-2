@@ -1,0 +1,70 @@
+/* Global Layout Set-up */
+
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: $default-font-family;
+  color: $color-text-base;
+  background: $color-body;
+  font-size: $default-font-size;
+}
+
+h1 {
+	font-size: 1.6em;
+	@media #{$brk-narrow} {
+		margin-bottom: .335em;
+
+	}
+
+@media #{$brk-wide} {
+			margin-right: auto;
+	}
+
+}
+
+h2 {
+	font-size: 0.813em; /* 13px */
+	margin: 40px auto;
+	
+		@media #{$brk-narrow} {
+			width: 100%;
+
+	}
+}
+
+h3 {
+	margin: 25px auto 15px;
+}
+
+p {
+	line-height: 1.5em; /* 24px */
+}
+
+strong {
+    color: #2572aa;
+}
+
+img {
+	width: 100%;
+}
+
+/* Link Styles */
+
+
+a {
+  text-decoration: none;
+  color: $color-link-default;
+  font-weight: bold;
+}
+
+a {
+	&:hover {
+  	color: $color-link-hover;
+		}
+}
+
