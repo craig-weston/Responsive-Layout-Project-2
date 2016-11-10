@@ -15,23 +15,23 @@ body {
 }
 
 h1 {
-	font-size: 1.6em;
-	@media #{$brk-narrow} {
+	font-size: $heading-font-size;
+	  @include tablet {
 		margin-bottom: .335em;
-
 	}
 
-@media #{$brk-wide} {
+
+@include desktop {
 			margin-right: auto;
 	}
 
 }
 
 h2 {
-	font-size: 0.813em; /* 13px */
+	font-size: $secondary-font-size; /* 13px */
 	margin: 40px auto;
 	
-		@media #{$brk-narrow} {
+		@include tablet {
 			width: 100%;
 
 	}
@@ -46,7 +46,7 @@ p {
 }
 
 strong {
-    color: #2572aa;
+    color: $blue ;
 }
 
 img {

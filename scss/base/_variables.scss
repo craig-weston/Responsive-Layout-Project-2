@@ -3,6 +3,7 @@
 $white          : #fafafa;
 $black          : #4a4a4a;
 $blue           : #6633ff;
+$grey						: #7f7f7f;
 
 // Functional color variables
 
@@ -14,7 +15,8 @@ $color-link-hover: $blue;
 $color-body: $white;
 
 // Fonts
-
+$heading-font-size: 1.6em;
+$secondary-font-size: 0.813em;
 $default-font-size: 16px;
 $default-font-family: 'Istok Web', sans-serif;
 
@@ -22,4 +24,5 @@ $default-font-family: 'Istok Web', sans-serif;
 
 $brk-narrow :  '(min-width: 768px)' ;
 $brk-wide :  '(min-width: 1024px)';
+
 

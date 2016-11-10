@@ -2,12 +2,12 @@ header {
 	@extend %center;
 	padding: 0 5%;
 	
-	@media #{$brk-narrow} {
+@include tablet {
 		padding: 0 3%;
 
 	}
 
-	@media #{$brk-wide} {
+@include desktop {
 			display: flex;
 			flex-wrap: wrap;
 	}
